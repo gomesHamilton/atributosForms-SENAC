@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+</head>
+
+<body>
+    <h3>Action</h3>
+    <p>O atributo <b>action</b> define o local, por meio de uma URL, ao qual serão enviados todos os dados recolhidos do
+        formulário.</p>
+
+    <h3>Method</h3>
+    <p>O atributo <b>method</b> define define o metódo HTTP que o formulário em HTML irá lidar com os dados recebidos. O
+        navegador envia uma requisição por meio da URL sempre que você utiliza algum recurso da web. </p>
+    <p><b>Temos os métodos:</b></p>
+    <ul>
+        <li>get</li>
+        <ul>
+            <li>Um formulário enviado pelo método get informa os dados, reconhecidos pelo servidor, por meio da URL.
+                Exemplo: url?nome=valor&idade=value. Com isso, esse método não é recomendado para compartilhamento de
+                dados confidenciais, uma vez que essas informações ficarão visíveis na URL da página.</li>
+        </ul>
+        <p><a href="exemplo1.html"><button>Exemplo 1</button></a></p>
+        <li>post</li>
+        <ul>
+            <li>O formulário enviado por esse método irá enviar os dados ao servidor e solicitar o retorno de um
+                resultado adequado. Diferentemente do get, o post não mostra os dados em seu URL.</li>
+        </ul>
+        <p><a href="exemplo2.html"><button>Exemplo 2</button></a></p>
+        <li>dialog</li>
+        <ul>
+            <li>É usada para definir uma caixa de diálogo, facilitando a criação de um modal na página.</li>
+        </ul>
+        <p><a href="exemplo3.html"><button>Exemplo 3</button></a></p>
+    </ul>
+
+    <h3>Autocomplete</h3>
+    <p>O atributo <b>autocomplete</b> habilita ou desabilita o autopreenchimento dos elementos form e input.</p>
+    <p><a href="exemplo4.html"><button>Exemplo 4</button></a></p>
+
+
+    <h3>Enctype</h3>
+    <p>O atributo <b>enctype</b> especifica a forma de codificação que os dados serão enviados ao servidor.</p>
+    <ul>
+        <li>application/x-www-form-urlencoded</li>
+        <ul>
+            <li>É o valor padrão. Ele codifica todos os caracteres antes de serem enviados ao servidor. Ele converte
+                espaços em símbolos + e caracteres especiais em seu valor hexadecimal.</li>
+        </ul>
+        <li>multipart/form-data</li>
+        <ul>
+            <li>Este valor não codifica nenhum caractere.</li>
+        </ul>
+        <li>text/plain</li>
+        <ul>
+            <li>Este valor converte espaços em símbolos +, mas os caracteres especiais não são convertidos.</li>
+        </ul>
+    </ul>
+    <p><a href="exemplo5.html"><button>Exemplo 5</button></a></p>
+
+    <h3>Target</h3>
+    <p>O atributo <b>Target</b> serve pra especificar ONDE abrir o link:</p>
+    <p>_blank: abre o link em uma nova janela;<br>
+        _self: o mesmo quadro em que estiver o link;<br>
+        _top: abre as páginas na janela do navegador, desconsiderando qualquer frame; é como "limpar" os frames;<br>
+        _parent: a página pai, a que contém o frame que contém a página atual.
+    </p>
+    <p><a href="exemplo6.html"><button>Exemplo 6</button></a></p>
+
+    <h3>Name </h3>
+    <p>O atributo HTML <"input"> name é usado para especificar um nome para um elemento <"input">.<br>
+                É usado para fazer referência aos dados do formulário após o envio do formulário ou para fazer
+                referência ao elemento em um JavaScript.</p>
+    <p><a href="exemplo7.html"><button>Exemplo 7</button></a></p>
+
+    <h3>Novalidate</h3>
+    <p>O atributo HTML novalidate é usado para especificar que os dados do formulário não devem ser validados ao enviar o formulário. <br>
+        É um atributo booleano.</p>
+    <a href="exemplo8.html"><button>Exemplo 8</button></a>
+
+
+</body>
+
+</html>
